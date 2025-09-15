@@ -572,11 +572,10 @@ footer .right p {
     box-sizing: border-box;
   }
 
-  nav .login {
-    display: flex;
-    gap: 8px;
-    justify-content: flex-end;
-    width: 100%;
+  nav .login { 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px; 
   }
 
   nav .login button {
@@ -646,4 +645,5 @@ footer .right p {
     height: auto;
   }
 }
+
 
