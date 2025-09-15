@@ -558,11 +558,11 @@ footer .right p {
     gap: 10px;
   }
 
-  nav .links {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 100%;
+  nav .links { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    gap: 12px; 
   }
 
   nav .links a {
@@ -646,3 +646,4 @@ footer .right p {
     height: auto;
   }
 }
+
